@@ -27,6 +27,12 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-terciaria);
 }
+main {
+    flex: 1;
+}
+footer{
+    margin-top: auto;
+}
 
 .apresentacao{
     padding: 5% 15%;
