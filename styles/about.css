@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    padding: 5% 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about_conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about_conteudo_titulo {
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+}
+
+.about_conteudo_texto {
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+}
+
+.about_icones {
+    width: 50%;
+    height: 400px; /* Ajuste conforme necessário */
+    position: relative;
+}
+
+.icone {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    position: absolute;
+}
+
+.icones .icone:nth-child(1) { top: 80%; left: 32%; }
+.icones .icone:nth-child(2) { top: 50%; left: 45%; }
+.icones .icone:nth-child(3) { top: 25%; left: 57%; }
+.icones .icone:nth-child(4) { top: 50%; left: 70%; }
+.icones .icone:nth-child(5) { top: 50%; left: 20%; }
+.icones .icone:nth-child(6) { top: 80%; left: 57%; }
+.icones .icone:nth-child(7) { top: 25%; left: 32%; }
+.icones .icone:nth-child(8) { top: 100%; left: 45%; }
+
+/* Responsividade para telas médias */
+@media (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_conteudo, .about_icones {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_icones {
+        height: 300px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .about_conteudo_titulo {
+        font-size: 20px;
+    }
+
+    .about_conteudo_texto {
+        font-size: 18px;
+    }
+
+    .about_icones {
+        height: 250px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+    .about_conteudo_titulo {
+        font-size: 18px;
+    }
+
+    .about_conteudo_texto {
+        font-size: 16px;
+    }
+
+    .about_icones {
+        height: 200px; /* Ajuste conforme necessário */
+    }
+
+    .icone {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Ajusta a posição dos ícones para telas pequenas */
+    .icones .icone:nth-child(1) { top: 70%; left: 30%; }
+    .icones .icone:nth-child(2) { top: 40%; left: 40%; }
+    .icones .icone:nth-child(3) { top: 20%; left: 50%; }
+    .icones .icone:nth-child(4) { top: 40%; left: 60%; }
+    .icones .icone:nth-child(5) { top: 40%; left: 15%; }
+    .icones .icone:nth-child(6) { top: 70%; left: 50%; }
+    .icones .icone:nth-child(7) { top: 20%; left: 30%; }
+    .icones .icone:nth-child(8) { top: 85%; left: 40%; }
+}

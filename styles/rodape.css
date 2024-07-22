@@ -1,0 +1,46 @@
+.rodape{    
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0;
+    width: 100%;
+    color: var(--cor-secundaria);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.redes_sociais{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 10px;
+
+}
+.redes_sociais_link{
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .rodape {
+        font-size: 0.8rem; /* Reduz o tamanho da fonte para telas menores */
+        padding: 10px 15px; /* Ajusta o padding para telas menores */
+    }
+
+    .redes_sociais_link {
+        width: 30px; /* Reduz o tamanho dos ícones das redes sociais */
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+    .rodape {
+        font-size: 0.7rem; /* Reduz ainda mais o tamanho da fonte */
+        padding: 10px 10px; /* Ajusta o padding para telas muito pequenas */
+    }
+
+    .redes_sociais_link {
+        width: 25px; /* Reduz o tamanho dos ícones das redes sociais */
+    }
+}

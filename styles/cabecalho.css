@@ -1,0 +1,60 @@
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_menu_link{
+    font-family: var(--fonte-terciaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+/* Responsividade para telas médias */
+@media (max-width: 1024px) {
+    .cabecalho {
+        padding: 2% 0% 0% 10%; /* Ajusta o padding para telas menores */
+    }
+
+    .cabecalho_menu {
+        gap: 40px; /* Reduz o espaçamento entre os itens do menu */
+    }
+
+    .cabecalho_menu_link {
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 2% 5%; /* Reduz o padding para telas pequenas */
+    }
+
+    .cabecalho_menu {
+        flex-direction: column; /* Alinha os itens do menu em coluna */
+        gap: 20px; /* Ajusta o espaçamento entre os itens do menu */
+    }
+
+    .cabecalho_menu_link {
+        font-size: 1.1rem; /* Reduz ainda mais o tamanho da fonte */
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+    .cabecalho {
+        padding: 2% 2%; /* Ajusta o padding para telas muito pequenas */
+    }
+
+    .cabecalho_menu {
+        gap: 10px; /* Reduz o espaçamento entre os itens do menu */
+    }
+
+    .cabecalho_menu_link {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+}

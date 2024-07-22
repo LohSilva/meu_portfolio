@@ -1,0 +1,107 @@
+.cabecalho_menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.projetos {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.projetos_intro {
+    margin-bottom: 50px;
+}
+
+.projetos_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projeto {
+    width: 30%;
+    margin: 10px 0;
+    text-align: left;
+    border: 1px solid var(--cor-secundaria);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projeto h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.projeto p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.projeto a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.projeto_voltar{
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.projeto_voltar_link{
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+}
+/* Responsividade para telas médias */
+@media (max-width: 1024px) {
+    .projeto {
+        width: 45%;
+    }
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .projeto {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .projetos {
+        padding: 5% 10%;
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+    .projetos {
+        padding: 5% 5%;
+    }
+
+    .projeto {
+        padding: 10px;
+    }
+
+    .projeto h2 {
+        font-size: 1.2rem;
+    }
+
+    .projeto p {
+        font-size: 0.9rem;
+    }
+
+    .projeto_voltar_link {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
