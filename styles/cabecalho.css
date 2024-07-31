@@ -24,57 +24,57 @@
     text-align: left;
     display: flex;
     gap: 20px;
-    margin-left: auto; /* Move o menu mais para o centro */
+    margin-left: auto; 
 }
 
 .icone_rede_social {
     width: 24px;
     height: 24px;
     vertical-align: middle;
-    margin-left: auto; /* Move o menu mais para o centro */
+    margin-left: auto; 
 }
 /* Responsividade para telas médias */
 @media (max-width: 1024px) {
     .cabecalho {
-        padding: 2% 0% 0% 10%; /* Ajusta o padding para telas menores */
+        padding: 2% 0% 0% 10%; 
     }
 
     .cabecalho_menu {
-        gap: 40px; /* Reduz o espaçamento entre os itens do menu */
+        gap: 40px; 
     }
 
     .cabecalho_menu_link {
-        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+        font-size: 1.3rem; 
     }
 }
 
 /* Responsividade para telas pequenas */
 @media (max-width: 768px) {
     .cabecalho {
-        padding: 2% 5%; /* Reduz o padding para telas pequenas */
+        padding: 2% 5%; 
     }
 
     .cabecalho_menu {
-        flex-direction: column; /* Alinha os itens do menu em coluna */
-        gap: 20px; /* Ajusta o espaçamento entre os itens do menu */
+        flex-direction: column; 
+        gap: 20px; 
     }
 
     .cabecalho_menu_link {
-        font-size: 1.1rem; /* Reduz ainda mais o tamanho da fonte */
+        font-size: 1.1rem; 
     }
 }
 
 /* Responsividade para telas muito pequenas */
 @media (max-width: 480px) {
     .cabecalho {
-        padding: 2% 2%; /* Ajusta o padding para telas muito pequenas */
+        padding: 2% 2%; 
     }
 
     .cabecalho_menu {
-        gap: 10px; /* Reduz o espaçamento entre os itens do menu */
+        gap: 10px; 
     }
 
     .cabecalho_menu_link {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
+        font-size: 1rem; 
     }
 }

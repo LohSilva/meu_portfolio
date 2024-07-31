@@ -44,13 +44,13 @@
 }
 .about_icones {
     width: 50%;
-    height: 400px; /* Ajuste conforme necessário */
+    height: 400px; 
     position: relative;
 }
 
 .icone {
-    width: 50px; /* Ajuste conforme necessário */
-    height: 50px; /* Ajuste conforme necessário */
+    width: 50px; 
+    height: 50px; 
     position: absolute;
 }
 
@@ -95,7 +95,7 @@
     }
 
     .about_icones {
-        height: 300px; /* Ajuste conforme necessário */
+        height: 300px;
     }
 }
 
@@ -110,7 +110,7 @@
     }
 
     .about_icones {
-        height: 250px; /* Ajuste conforme necessário */
+        height: 250px; 
     }
 }
 
@@ -125,7 +125,7 @@
     }
 
     .about_icones {
-        height: 200px; /* Ajuste conforme necessário */
+        height: 200px; 
     }
 
     .icone {
