@@ -6,7 +6,7 @@
     --cor-primaria: #000000;
     --cor-secundaria: #FFFFFF;
     --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-hover: #988DFF;
 
     --fonte-primaria: 'Roboto', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -20,7 +20,7 @@
 body{    
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
     background-color: var(--cor-primaria);
-    background-image: url('../assets/fundo_tech.jpg');
+    background-image: url('../assets/fundo_tech_.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
