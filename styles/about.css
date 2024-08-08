@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .about {
@@ -25,7 +26,9 @@
 .about_conteudo_texto {
     font-size: 20px;
     font-family: var(--fonte-secundaria);
+    line-height: 1.6;
 }
+
 .cabecalho_menu a {
     text-decoration: none;
     font-size: 1rem;
@@ -42,6 +45,7 @@
     height: 24px;
     vertical-align: middle;
 }
+
 .about_icones {
     width: 50%;
     height: 400px; 
@@ -54,12 +58,15 @@
     position: absolute;
 }
 
-.about_links{
+.about_links {
     text-align: center;
     margin: 20px 0;
 }
+.about_links a:hover {
+    background-color: var(--cor-hover) ;
+}
 
-.about_link{
+.about_link {
     display: inline-block;
     text-decoration: none;
     font-size: 1.5rem;
@@ -107,6 +114,7 @@
 
     .about_conteudo_texto {
         font-size: 18px;
+        text-align: center;
     }
 
     .about_icones {

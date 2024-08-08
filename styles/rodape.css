@@ -1,11 +1,10 @@
 .rodape{    
-    position: fixed; 
     bottom: 0;
     width: 100%;
     color: var(--cor-secundaria);
     font-size: 0.9rem;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
     padding: 5px 20px;
     box-sizing: border-box;
 }
