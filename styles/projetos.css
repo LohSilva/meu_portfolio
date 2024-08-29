@@ -26,6 +26,12 @@ body {
     text-align: center;
 }
 
+.projeto_divisor {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500px;
+}
+
 .projetos_intro {
     margin-bottom: 3rem;
 }
@@ -34,7 +40,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .projeto {
@@ -59,15 +65,15 @@ body {
 }
 
 .projeto h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
-    font-family: var(--fonte-secundaria);
+    font-family: myFontPoppins;
 }
 
 .projeto p {
     font-size: 1rem;
     margin: 1rem 0;
-    font-family: var(--fonte-terciaria);
+    font-family: myFontPoppins;
 }
 
 .projeto a {
@@ -80,8 +86,8 @@ body {
     padding: 10px 0;
     border: 2px solid var(--cor-secundaria); 
     border-radius: 8px;
-    font-family: var(--fonte-secundaria);
-    font-weight: 600;
+    font-family: myFontPoppins;
+    font-weight: 400;
     transition: background-color 0.3s ease;
 }
 
@@ -104,7 +110,7 @@ body {
     font-size: 1rem;
     color: var(--cor-secundaria);
     text-decoration: none;
-    font-family: var(--fonte-secundaria);
+    font-family: myFontPoppins;
 }
 
 @media (max-width: 1024px) {

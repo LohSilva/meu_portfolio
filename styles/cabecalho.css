@@ -9,7 +9,7 @@
     gap: 80px;
 }
 .cabecalho_menu_link{
-    font-family: var(--fonte-terciaria);
+    font-family: myFontPoppins;
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);

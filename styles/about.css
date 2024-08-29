@@ -20,12 +20,12 @@
 
 .about_conteudo_titulo {
     font-size: 24px;
-    font-family: var(--fonte-primaria);
+    font-family: myFontPoppins;
 }
 
 .about_conteudo_texto {
     font-size: 20px;
-    font-family: var(--fonte-secundaria);
+    font-family: myFontPoppins;
     line-height: 1.6;
 }
 
@@ -69,13 +69,13 @@
 .about_link {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: 2px solid var(--cor-secundaria);
     border-radius: 8px;
     padding: 15px 30px;
     font-weight: 600; 
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    font-family: myFontPoppins;
     transition: background-color 0.3s ease;
 }
 
